@@ -205,15 +205,15 @@ if(attack)
 	if(see)
 	{
 		
-		if(collision_circle(x, y, 10, obj_player, 0, 1))
+		if(collision_circle(x, y, 10, obj_player, 0, 1) and !shoot)
 		{
 			
-			obj_player.dead = true
 			audio_play_sound(death, 100, false);
+			shoot = true;
 			
 		}
 		
-		shoot_t ++;
+		/*shoot_t ++;
 		
 		if(shoot_speed < shoot_t)
 		{
@@ -221,16 +221,15 @@ if(attack)
 			shoot_t = 0;
 			shoot = true;
 			
-		}
+		}*/
 		
 		if(shoot)
 		{
 			
 			if(sprite_index == spr_guard_shooting and image_index >= image_number - 1)
 			{
-				
+				obj_player.dead = true;
 				shoot = false;
-				instance_create_layer(x, y, "Bullet", obj_bullet,);
 				sprite_index = spr_guard_walking;
 				
 			}

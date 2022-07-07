@@ -57,9 +57,9 @@ if(variation == 1) //Intro
 	
 	if(!visible)
 	{
-		
+		/*
 		room_goto(rm_Imp_Office);
-		global.intro_trans = true;
+		global.intro_trans = true;*/
 		
 	}
 	
@@ -85,18 +85,30 @@ if(variation == 2 and global.intro_trans == true and obj_intro_effect.alpha != 0
 	type_num = 0;
 	
 }
-if(variation == 2 and page == 36 and type_num >= 45)
+if(variation == 2 and page == 25 and type_num >= 87 and !cutscene_1)
 {
 	
-	global.player_outfit = 2;
+	alarm[1] = 1;
+	if(!instance_exists(obj_screenflash))
+	{
+		var a = instance_create_depth(0, 0, -100, obj_screenflash);
+		with(a)
+		{
+		
+			rev = true;
+			alpha = 1;
+			image_alpha = 1;
+		
+		}
+	}
 	
-	if(!audio_is_playing(finger_snap) and !snap)
+	if(!audio_is_playing(finger_snap))
 	{
 		
-		snap = true;
 		audio_play_sound(finger_snap, 40, false);
 		
 	}
+	cutscene_1 = true;
 	
 }
 
@@ -144,7 +156,7 @@ else
 	
 }
 
-if(name[page] == "Narrator" and visible)
+if(name[page] == "" and visible)
 {
 	
 	if(type_num < string_length(text[page]))

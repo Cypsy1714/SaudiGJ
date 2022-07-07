@@ -14,13 +14,13 @@ if(variation == 0) //Demo Text
 if(variation == 1) //Intro Text
 {
 	#region Names
-	name[0] = "Narrator";
-	name[1] = "Narrator";
-	name[2] = "Narrator";
-	name[3] = "Narrator";
-	name[4] = "Narrator";
-	name[5] = "Narrator";
-	name[6] = "Narrator";
+	name[0] = "";
+	name[1] = "";
+	name[2] = "";
+	name[3] = "";
+	name[4] = "";
+	name[5] = "";
+	//name[6] = "Narrator";
 	#endregion
 	#region Text
 	text[0] = "David was a fine man. He was kind, honest and a trustworthy man.";
@@ -29,7 +29,7 @@ if(variation == 1) //Intro Text
 	text[3] = "and investigating ancient relics, some of those would be better of left alone...";
 	text[4] = "He made a living out of trading antiques. And his obsession made him a fortune.";
 	text[5] = "Until that day...";
-	text[6] = "Thus it was the end of his journey or was it just a new beggining?";
+	//text[6] = "Thus it was the end of his journey or was it just a new beggining?";
 	#endregion
 	
 }
@@ -50,7 +50,7 @@ if(variation == 2) //Intro Imp Office
 	name[7] = "Impo";
 	name[8] = "David";
 	name[9] = "Impo";
-	name[10] = "David";
+	name[10] = "Impo";
 	name[11] = "Impo";
 	name[12] = "Impo";
 	name[13] = "Impo";
@@ -61,7 +61,7 @@ if(variation == 2) //Intro Imp Office
 	name[18] = "Impo";
 	name[19] = "Impo";
 	name[20] = "Impo";
-	name[21] = "Impo";
+	name[21] = "David";
 	name[22] = "Impo";
 	name[23] = "Impo";
 	name[24] = "Impo";
@@ -70,19 +70,8 @@ if(variation == 2) //Intro Imp Office
 	name[27] = "Impo";
 	name[28] = "Impo";
 	name[29] = "Impo";
-	name[30] = "David";
+	name[30] = "Impo";
 	name[31] = "Impo";
-	name[32] = "Impo";
-	name[33] = "Impo";
-	name[34] = "Impo";
-	name[35] = "Impo";
-	name[36] = "Impo";
-	name[37] = "Impo";
-	name[38] = "Impo";
-	name[39] = "Impo";
-	name[40] = "Impo";
-	name[41] = "Impo";
-	name[42] = "Impo";
 	#endregion
 	#region Text
 	text[0] = "Hello there.";
@@ -95,39 +84,28 @@ if(variation == 2) //Intro Imp Office
 	text[7] = "Unfortunately your soul has been sold to us by one of your relatives which i can't name.";
 	text[8] = "What! You can do that?";
 	text[9] = "Of course, of course bussines is bussines after all doesn't matter who sells it hehehe.";
-	text[10] = "Is that even legal?";
-	text[11] = "There are no rules here can't you see you are in hell, wake up champ hehehe.";
-	text[12] = "It appears you have two options my good sir. Let me see...";
-	text[13] = "You can either sign here to live eternity in hell,";
-	text[14] = "but you wouldnt want that would you hehehehe nobody likes that.";
-	text[15] = "I hate the heat, I go there to get some fine soul wine from Anybodys Souls Wines Inc";
-	text[16] = "You want some, hehehe you humans will die from drinking this.";
-	text[17] = "Anyways your other option is hmm let me see,";
-	text[18] = "Oh I see an antiquarian are we wow I dont get those often,";
-	text[19] = "You could come in handy hehehehe.";
-	text[20] = "How about you collect me some ancient artifacts I can sell on the white market?";
-	text[21] = "You like it hehehe.";
-	text[22] = "How are you going to collect the artifacts I hear you asking.";
-	text[23] = "Well its easy you see I am an Imp hehehe.";
-	text[24] = "I can send you to earth for some time with my Imply powers.";
-	text[25] = "But sadly I cannot go there myself, If only I could I would kill every last hu...";
-	text[26] = "anyways what was I saying again ah yes,";
-	text[27] = "It seems that you have I mean 'HAD' quite the interest for antique stuff, am I right? ";
-	text[28] = "I will send you to earth and your mission will be to collect valuable artifacts for me to sell.";
-	text[29] = "You know this cigar doesn't come cheep, gotto make some money somehow hehehe.";
-	text[30] = "How am I gonna bring back the artifacts?";
-	text[31] = "Good question did you think I didn't think of that you would be silly hehehe.";
-	text[32] = "Of course I have this 'Magic Sack' anything you put in there teleports to my office.";
-	text[33] = "Comes in very handy when stealing if I may say so myself hehehehe.";
-	text[34] = "But be sure to not put anything else than an artifact in there!";
-	text[35] = "I dont want another arm just appearing in my office for the 756. time demon dammit!";
-	text[36] = "Now I will give you a set of armour and be very carefull with it It was very expensive!";
-	text[37] = "If you lose it you would need 500 eternity's of suffering in hell to pay me back,";
-	text[38] = "and I dont think 1 person can suffer for 500 eternity's,";
-	text[39] = "but we will see if it comes to that hehehe.";
-	text[40] = "Okay you are all set come back sometimes,";
-	text[41] = "I might just have the thing you need for your stealing sprees hehehe.";
-	text[42] = "Just dont forget you will need to pay for them.";
+	text[10] = "It appears you have two options my good sir. Let me see...";
+	text[11] = "You can either sign here to live eternity in hell,";
+	text[12] = "but you wouldnt want that would you hehehehe nobody likes that.";
+	text[13] = "I hate the heat, I go there to get some fine soul wine from Anybodys Souls Wines Inc";
+	text[14] = "You want some, hehehe you humans will die from drinking this.";
+	text[15] = "Anyways your other option is hmm let me see,";
+	text[16] = "Oh I see an antiquarian are we wow I dont get those often,";
+	text[17] = "It seems that you have I mean 'HAD' quite the interest for antique stuff, am I right? ";
+	text[18] = "You could come in handy hehehehe.";
+	text[19] = "How about you collect me some ancient artifacts I can sell on the white market?";
+	text[20] = "You like it hehehe.";
+	text[21] = "How am I gonna bring back the artifacts?";
+	text[22] = "Of course I have this 'Magic Sack' anything you put in there teleports to my office.";
+	text[23] = "But be sure to not put anything else than an artifact in there!";
+	text[24] = "I dont want another arm just appearing in my office for the 756. time demon dammit!";
+	text[25] = "Now I will give you a set of armour and be very carefull with it It was very expensive!";
+	text[26] = "If you lose it you would need 500 eternity's of suffering in hell to pay me back,";
+	text[27] = "and I dont think 1 person can suffer for 500 eternity's,";
+	text[28] = "but we will see if it comes to that hehehe.";
+	text[29] = "Okay you are all set come back sometimes,";
+	text[30] = "I might just have the thing you need for your stealing sprees hehehe.";
+	text[31] = "Just don't forget you will need to pay for them.";
 	
 	#endregion
 	
@@ -149,5 +127,6 @@ outline_text_up = 17;
 outline_text_width = 16;
 text_sep = 20;
 
-
 snap = false;
+
+cutscene_1 = false;

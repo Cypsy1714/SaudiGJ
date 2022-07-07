@@ -7,7 +7,6 @@ if(alpha != 0)
 if(alpha < 0)
 {
 	
-	
 	alpha = 0;
 	
 }

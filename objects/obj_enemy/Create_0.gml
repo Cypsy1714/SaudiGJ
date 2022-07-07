@@ -16,7 +16,7 @@ last_seen_x = 0;
 last_seen_y = 0;
 attack_t = 0;
 attack_buffer = 60;
-shoot_speed = 30;
+shoot_speed = 999999;
 shoot_t = 0;
 shoot = false;
 

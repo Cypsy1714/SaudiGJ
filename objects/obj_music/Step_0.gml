@@ -1,6 +1,6 @@
 if(room = rm_Imp_Office and music != HELLS_OFFICE)
 {
-	alarm[0] = 360;
+	alarm[0] = 60;
 	music = HELLS_OFFICE;
 }
 

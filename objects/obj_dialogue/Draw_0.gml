@@ -1,4 +1,8 @@
+if(room != rm_intro)
+{
 draw_self();
+}
+
 	draw_set_halign(fa_left);
 	var cur_string = string_copy(text[page], 1, type_num);
 	
