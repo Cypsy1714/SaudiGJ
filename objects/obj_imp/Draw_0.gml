@@ -19,6 +19,6 @@ if(indicate)
 		
 	}
 	
-	draw_sprite(spr_press_e, sub, x, y - 3);
+	draw_sprite(spr_press_e, sub, x - 28, y + 28);
 	
 }
