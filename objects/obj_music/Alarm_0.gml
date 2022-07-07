@@ -1,0 +1,1 @@
+audio_play_sound(HELLS_OFFICE, 30, true);

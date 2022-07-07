@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_black, 0, 0, 0, 20, 20, 0, -1, alpha);
