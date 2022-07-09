@@ -2,7 +2,7 @@ draw_self();
 if(indicate)
 {
 	
-	sub_c++;
+	/*sub_c++;
 	
 	if(sub_c > sub_spd)
 	{
@@ -17,8 +17,8 @@ if(indicate)
 		
 		sub = 0;
 		
-	}
+	}*/
 	
-	draw_sprite(spr_press_e, sub, x - 28, y + 28);
+	//draw_sprite_ext(e, sub, x - 48, y + 28, 2, 2, 0, -1, 1);
 	
 }

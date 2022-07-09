@@ -1,0 +1,1 @@
+audio_play_sound(DEATH_version_2, 100, false);

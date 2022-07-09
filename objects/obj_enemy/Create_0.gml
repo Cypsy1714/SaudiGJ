@@ -1,5 +1,8 @@
-vision_lenght = 150;
-vision_width = 100;
+vision_lenght = 120;
+vision_width = 90;
+
+shadow_id = instance_create_depth(x, y + 15, 1000, obj_shadow);
+shadow_id.partner = id;
 
 sense_radius = 40;
 

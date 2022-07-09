@@ -11,6 +11,7 @@ sprite[9] = spr_trophy_helm_2;
 sprite[10] = spr_trophy_helm_3;
 sprite[11] = spr_trophy_exotic_1;
 sprite[12] = spr_trophy_exotic_2;
+sprite[13] = spr_trophy_wow;
 
 sprite_empty[0] = spr_trophy_empty_1;
 sprite_empty[1] = spr_trophy_empty_1;
@@ -25,5 +26,8 @@ sprite_empty[9] = spr_trophy_empty_4;
 sprite_empty[10] = spr_trophy_empty_4;
 sprite_empty[11] = spr_trophy_empty_5;
 sprite_empty[12] = spr_trophy_empty_5;
+sprite_empty[13] = spr_trophy_empty_6;
 
 alarm[0] = 1;
+
+global.points = 0;

@@ -12,17 +12,22 @@ if(alpha > 1)
 	
 }
 
-if(type_t > type_spd)
-{
-	
-	type_num++;
-	type_t = 0;
-	
-}
-else
+if(alpha > 0.80)
 {
 
-	type_t++;
+	if(type_t > type_spd)
+	{
+	
+		type_num++;
+		type_t = 0;
+	
+	}
+	else
+	{
+
+		type_t++;
+	
+	}
 	
 }
 

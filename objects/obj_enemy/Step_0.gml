@@ -1,4 +1,4 @@
-if(!obj_player.dead)
+if(!obj_player.dead and !obj_player.immune)
 {
 #region // Detect
 
@@ -208,7 +208,8 @@ if(attack)
 		if(collision_circle(x, y, 10, obj_player, 0, 1) and !shoot)
 		{
 			
-			audio_play_sound(death, 100, false);
+			audio_play_sound(GUNSHOT, 100, false);
+			alarm[0] = 20;
 			shoot = true;
 			
 		}
@@ -262,7 +263,7 @@ if(attack)
 		
 	}
 	
-	spd = 3;
+	spd = 2;
 	
 }
 else
@@ -577,5 +578,30 @@ if(investigate or attack)
 {
 	
 	obj_music.play = ACTION_VERSION_3;
+	
+}
+
+if(image_xscale == 1)
+{
+	
+	with(shadow_id)
+	{
+		
+		x = partner.x - 2;
+		y = partner.y + 10;
+		
+	}
+	
+}
+else
+{
+	
+	with(shadow_id)
+	{
+		
+		x = partner.x + 2;
+		y = partner.y + 10;
+		
+	}
 	
 }

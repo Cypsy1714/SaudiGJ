@@ -33,6 +33,7 @@ if(vision_dir == "left")
 //draw_circle_color(x, y, sense_radius, c_red, c_red, c_black);
 
 
+
 draw_self();
 
 

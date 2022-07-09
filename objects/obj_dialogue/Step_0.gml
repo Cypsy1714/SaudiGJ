@@ -52,6 +52,13 @@ if(type_num < string_length(text[page]) and visible)
 
 #region Scripts
 
+if(variation == 6 and page == 17 and alarm[9] == -1)
+{
+	
+	alarm[9] = 120;
+	
+}
+
 if(variation == 1) //Intro
 {
 	
@@ -85,7 +92,7 @@ if(variation == 2 and global.intro_trans == true and obj_intro_effect.alpha != 0
 	type_num = 0;
 	
 }
-if(variation == 2 and page == 25 and type_num >= 87 and !cutscene_1)
+if(variation == 2 and page == 17 and type_num >= 0 and !cutscene_1)
 {
 	
 	alarm[1] = 1;
